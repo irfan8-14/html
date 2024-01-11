@@ -1,0 +1,63 @@
+<!doctype html>
+<html>
+    <head>
+        <title>Login form</title>
+        <style>
+            
+div  { 
+  background-color: rgb(182, 225, 125);
+  width: 300px;
+  border: 15px solid rgb(8, 71, 47);
+  padding: 50px;
+  margin: 20px;
+  align="center"
+}
+</style>
+    </head>
+<body>    
+       
+    
+    <form>
+        <div align="center" class="container"> 
+            <h1> <center>Login Form</center>  </h1> 
+            <label>Username : </label> 
+            <input type="text" placeholder="Enter Username" name="username" required></br>
+            <label>Password : </label>
+            <input type="password" placeholder="Enter Password" name="password" required></br>
+            Forgot <a href="#"> password? </a> </br>
+
+            <label>Email ID : </label> 
+            <input type="text" placeholder="Enter Email ID" name="Email ID" required></br>
+            <label>Place    : </label> 
+            <input type="text" placeholder="Enter place" name="enter place" required></br></br>
+
+            <label>select your gender    : </label> </br>
+            <form>
+                <input type="radio" id="male" name="select_gender" value="male">
+                <label for="html">male</label><br>
+                <input type="radio" id="female" name="select_gender" value="female">
+                <label for="css">female</label><br>
+
+            <input type="checkbox" checked="checked"> Remember me 
+            <button type="button" class="cancelbtn"> Cancel</button>
+        </br> </br></br> </br>
+
+        <label for="country">Choose a country:</label>
+        
+        <select id="country">
+          <option value="india">india</option>
+          <option value="usa">usa</option>
+          <option value="uae">uae</option>
+          <option value="russia">russia</option>
+        </select> <br><br><br><br>
+        </br> </br></br> </br>
+
+           
+               </form>
+            <button type="button" onclick="alert('hello')">Click Me!</button>
+            <button type="submit">Login</button></br> </br>
+
+        </div> 
+    </form>   
+</body>   
+</html>
